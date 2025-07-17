@@ -210,7 +210,7 @@ function RenderSmallMenu()
     love.graphics.setFont(font)
     love.graphics.print("Credits:", (sw/2), (sh/2)-200+50, 0, 1, 1, font:getWidth("Credits:")/2)
 
-    local cr = "Code by Blendi Goose\nTextures by k_lemon\nMore Code by NoAyeBeardo"
+    local cr = "Code by Blendi Goose\nTextures by k_lemon\nMod by NoAyeBeardo"
     love.graphics.print(cr, (sw/2), (sh/2)-100, 0, 1, 1, font:getWidth(cr)/2)
 
     SmallMenuContainer:draw()
